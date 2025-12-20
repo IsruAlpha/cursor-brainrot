@@ -6,39 +6,59 @@
 
 ---
 
-## About
+## 🚀 About
 
-`cursor-brainrot` is a fun and powerful tool inspired by [Claude Brainrot](https://github.com/unoptimal/claude-brainrot). It listens to Cursor AI responses and launches popular short-video platforms like TikTok, Instagram Reels, YouTube Shorts, and X automatically in separate Chrome windows — perfect for users who want to binge on trending content seamlessly.
+`cursor-brainrot` is a fun and powerful CLI tool inspired by [Claude Brainrot](https://github.com/unoptimal/claude-brainrot).  
+It listens to **Cursor AI** responses and automatically launches popular short-video platforms such as:
+
+- TikTok  
+- Instagram Reels  
+- YouTube Shorts  
+- X (formerly Twitter)
+
+Each platform opens in its own separate Chrome window — making it easy and seamless to binge trending content while interacting with Cursor AI.
 
 ---
 
-## Features
+## ✨ Features
 
-- Automatically opens TikTok, Instagram Reels, YouTube Shorts, and X based on Cursor AI output  
-- Opens videos in separate Chrome windows for easy browsing  
-- Lightweight and simple CLI tool  
+- Automatically opens TikTok, Instagram Reels, YouTube Shorts, and X based on AI output  
+- Opens each platform in a new Chrome window for focused browsing  
+- Lightweight, simple CLI experience  
+- Works cross-platform (Windows, macOS, Linux)  
 
 ---
 
-## Installation
+## 💻 Installation
 
-Install globally via npm:
+Install **globally** via npm:
 
 ```bash
 npm install -g cursor-brainrot
+Or, run without installing using npx:
 
-How It Works
+bash
+Copy code
+npx cursor-brainrot
+🎯 Usage
+Simply run from your terminal:
 
-cursor-brainrot hooks into the Cursor AI output stream and triggers the opening of new browser windows with relevant video platforms based on keywords and content detected.
+bash
+Copy code
+cursor-brainrot
+The tool will monitor Cursor AI's output and automatically open relevant video platforms based on keywords and detected content.
 
-Contributing
+⚙️ How It Works
+cursor-brainrot hooks into the output stream of Cursor AI and scans the responses for triggers related to TikTok, Instagram Reels, YouTube Shorts, and X videos.
+When a trigger is detected, it opens a new Chrome browser window with the corresponding video platform, allowing for instant access to trending content.
 
-Contributions and suggestions are welcome! Feel free to open issues or submit pull requests.
+🤝 Contributing
+Contributions, bug reports, and feature requests are welcome!
+Feel free to open issues or submit pull requests on GitHub.
 
-License
+📄 License
+This project is licensed under the MIT License.
+© [Your Name]
 
-MIT License © Israel Firew
-
-Contact
-
-Created by Israel Firew — feel free to reach out!
+📬 Contact
+Created by [Your Name] — feel free to reach out with any questions or suggestions!
