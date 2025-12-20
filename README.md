@@ -32,20 +32,15 @@ Each platform opens in its own separate Chrome window — making it easy and sea
 ## 💻 Installation
 
 Install **globally** via npm:
-
-```bash
 npm install -g cursor-brainrot
-Or, run without installing using npx:
 
-bash
-Copy code
+Or, run without installing using npx:
 npx cursor-brainrot
+
 🎯 Usage
 Simply run from your terminal:
-
-bash
-Copy code
 cursor-brainrot
+
 The tool will monitor Cursor AI's output and automatically open relevant video platforms based on keywords and detected content.
 
 ⚙️ How It Works
@@ -58,7 +53,7 @@ Feel free to open issues or submit pull requests on GitHub.
 
 📄 License
 This project is licensed under the MIT License.
-© [Your Name]
+© Israel Firew
 
 📬 Contact
-Created by [Your Name] — feel free to reach out with any questions or suggestions!
+Created by Israel Firew — feel free to reach out with any questions or suggestions!
