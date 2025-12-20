@@ -1,36 +1,31 @@
-cursor-brainrot
+# cursor-brainrot
 
-Automatically opens TikTok, Instagram Reels, YouTube Shorts, and X videos in separate Chrome windows whenever Cursor AI generates a response.
+[![npm version](https://img.shields.io/npm/v/cursor-brainrot)](https://www.npmjs.com/package/cursor-brainrot)
 
-About
+**Automatically opens TikTok, Instagram Reels, YouTube Shorts, and X videos in separate Chrome windows whenever Cursor AI generates a response.**
 
-cursor-brainrot is a fun and powerful tool inspired by Claude Brainrot
-. It listens to Cursor AI responses and launches popular short-video platforms like TikTok, Instagram Reels, YouTube Shorts, and X automatically in separate Chrome windows — perfect for users who want to binge on trending content seamlessly.
+---
 
-Features
+## About
 
-Automatically opens TikTok, Instagram Reels, YouTube Shorts, and X based on Cursor AI output
+`cursor-brainrot` is a fun and powerful tool inspired by [Claude Brainrot](https://github.com/unoptimal/claude-brainrot). It listens to Cursor AI responses and launches popular short-video platforms like TikTok, Instagram Reels, YouTube Shorts, and X automatically in separate Chrome windows — perfect for users who want to binge on trending content seamlessly.
 
-Opens videos in separate Chrome windows for easy browsing
+---
 
-Lightweight and simple CLI tool
+## Features
 
-Installation
+- Automatically opens TikTok, Instagram Reels, YouTube Shorts, and X based on Cursor AI output  
+- Opens videos in separate Chrome windows for easy browsing  
+- Lightweight and simple CLI tool  
+
+---
+
+## Installation
+
+Install globally via npm:
+
+```bash
 npm install -g cursor-brainrot
-
-
-or use it directly without installing:
-
-npx cursor-brainrot
-
-Usage
-
-Run the tool from your terminal:
-
-cursor-brainrot
-
-
-It will listen for Cursor AI responses and open video platforms automatically.
 
 How It Works
 
